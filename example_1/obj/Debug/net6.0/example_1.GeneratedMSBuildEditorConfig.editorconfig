@@ -15,12 +15,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/arkel/Cursos/Curso_UdemyASPNETcore1/example_1
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/arkel/Cursos/Curso_UdemyASPNETcore1/example_1/Views/Home/Columnas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db2x1bW5hcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/arkel/Cursos/Curso_UdemyASPNETcore1/example_1/Views/Home/Grid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HcmlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/arkel/Cursos/Curso_UdemyASPNETcore1/example_1/Views/Home/Gutters.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HdXR0ZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/arkel/Cursos/Curso_UdemyASPNETcore1/example_1/Views/Home/Imagenes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbWFnZW5lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/arkel/Cursos/Curso_UdemyASPNETcore1/example_1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/arkel/Cursos/Curso_UdemyASPNETcore1/example_1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/arkel/Cursos/Curso_UdemyASPNETcore1/example_1/Views/Home/Tablas-Videos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UYWJsYXMtVmlkZW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/arkel/Cursos/Curso_UdemyASPNETcore1/example_1/Views/Shared/Error.cshtml]

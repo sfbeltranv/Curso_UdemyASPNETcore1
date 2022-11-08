@@ -1,0 +1,156 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<p>
+This is a test paragraph for the first example.
+</p>
+
+<hr />
+
+<div class="row">
+    <div class="col">
+        column  1
+    </div>
+    <div class="col">
+        column  2
+    </div>
+    <div class="col">
+        column  3
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        column  21
+    </div>
+    <div class="col-8">  <!-- 1 space within tab -->
+        column  22
+    </div>
+    <div class="col">
+        column  33
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        column  31
+    </div>
+    <div class="col-6">  <!-- min space -->
+        column  32
+    </div>
+    <div class="col">
+        column  33
+    </div>
+</div>
+<hr />
+
+<p> 22 should be bigger  </p>
+
+
+<h2> Vertical example</h2>
+
+<div class="row">
+    <div class="col-sm-4">
+        column  31
+    </div>
+    <div class="col-sm-4">  <!-- min space -->
+        column  32
+    </div>
+    <div class="col-sm-4">
+        column  33
+    </div>
+</div>
+
+
+<p> Table class example  </p>
+
+
+<table class="table table-stripped table-hover table-sm">
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Nota</th>
+        </tr>
+    </thead>
+        <tr>
+            <td>1</td>
+            <td>Pepito</td>
+            <td>Jimenez</td>
+            <td>5</td>
+        </tr>
+        <tr class="table-primary">
+            <td>2</td>                  <!-- esta columna ocupa dos espacios -->
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>5</td>
+        </tr>    
+        <tr class="table-success">
+            <td>2</td>                  <!-- esta columna ocupa dos espacios -->
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>5</td>
+        </tr>    
+        <tr class="table-danger">
+            <td>2</td>                  <!-- esta columna ocupa dos espacios -->
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>5</td>
+        </tr>                        
+        <tr>
+            <td>3</td>
+            <td colspan="2">Ana Moran</td>    <!-- esta columna ocupa dos espacios -->
+            <td>5</td>
+        </tr>
+</table>
+
+<hr />
+
+<div>
+<h2>Inserting videos:</h2><br>
+Unratio video:
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mHAWJKmMTRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div>
+16x9 video:
+</div>
+
+<div class="ratio ratio-16x9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mHAWJKmMTRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!-- https://youtu.be/mHAWJKmMTRQ   -->
+
+<hr />
+
+<p> 
+    Videos in a row:  
+</p>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mHAWJKmMTRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="col-md-4"> 
+        <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mHAWJKmMTRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mHAWJKmMTRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+
+
